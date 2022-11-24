@@ -29,7 +29,7 @@ __all__ = []
 
 class Spectrogram(nn.Layer):
     """Compute spectrogram of given signals, typically audio waveforms.
-    The spectorgram is defined as the complex norm of the short-time Fourier transformation.
+    The spectorgram is defined as the complex norm of the short-time Fourier transformation. Hi, how are you. Test for Docs CI.
 
     Args:
         n_fft (int, optional): The number of frequency components of the discrete Fourier transform. Defaults to 512.
